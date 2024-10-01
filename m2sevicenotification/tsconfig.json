@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",  // Saída da compilação vai para a pasta "dist"
+    "module": "commonjs",  // Utiliza módulos CommonJS
+    "target": "es6",  // Transpilar para ES6
+    "strict": true,  // Ativar verificação estrita de tipo
+    "esModuleInterop": true,  // Compatibilidade com módulos ES
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"  // Compilar todos os arquivos TypeScript dentro da pasta "src"
+  ]
+}
