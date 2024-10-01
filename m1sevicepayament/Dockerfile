@@ -18,8 +18,6 @@ RUN apt-get update && apt-get install -y \
 COPY pom.xml .
 COPY src ./src
 
-ENV KAFKA_BROKER=kafka:9092
-
 # Build the application pula os teste
 RUN mvn clean package -DskipTests 
 
